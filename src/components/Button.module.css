@@ -30,3 +30,11 @@ button.btn:hover {
 button.btn:focus {
   box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);
 }
+button.btn:disabled {
+  background-color: #4677af;
+  pointer-events: none;
+}
+button.btn[data-active="true"] {
+  background-color: greenyellow;
+  color: #000000;
+}
